@@ -1,0 +1,486 @@
+/* TOUS DROITS RESERVES CSS BY LIANG ET HEREDIA */
+/* ______________________________/---------\_____________________________*/
+/*******************************____2014______*****************************/
+/*-----------------------------------------------------------------------*/
+
+
+/* applique un style margin et padding � toutes les pages */
+* 
+{
+	margin: 0;
+	padding: 0;
+}
+
+html 
+{
+	background: #ddd;
+}
+
+/* applique un style � la page */
+body 
+{
+	margin: 1em 10%;
+	padding: 1em 3em;
+	font: 80%/1.4 tahoma, arial, helvetica, lucida sans, sans-serif;
+	border: 1px solid #999;
+	background: #eee;
+    
+	/* position: relative; */
+}
+
+
+ul li a 
+{
+margin: 80px;
+}
+
+/* applique un style "suppression de puce" de la page */
+ul
+{
+	list-style-type: none;
+}
+
+/* applique un style au bouton connexion */
+#connexion a
+{
+ display:block;
+ float:left;   
+ width:30%;
+ background-color:#6495ED;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ font-size:135%;
+ padding:5px;
+ border:2px solid;
+ cursor:pointer;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ 
+ /* applique un style au bouton inscription */
+ #inscription a
+{
+ display:block;
+ float:right;   
+ width:30%;
+ font-size:135%;
+ background-color:#fd3a43;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ cursor:pointer;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ 
+ /* applique un style au survol du bouton connexion */
+#connexion a:hover 
+{
+ background-color:#acd3fb;
+}
+
+ /* applique un style au survol du bouton inscription */
+#inscription a:hover 
+{
+ background-color:#ffa88a;
+} 
+
+ /* applique un style a l'id head de la page */
+#head 
+{
+  text-align: center;
+  color: #222;
+  font-size:20px;
+  font-family: Georgia;
+  color: rgba(69,54,37,0.6);
+  font-size: 0.85em;
+  font-style: italic;
+  letter-spacing: 0.25em;
+  border-bottom: 1px solid rgba(69,54,37,0.2);
+  padding-bottom: 0.5em;
+ 
+}
+
+/* applique un style a l'id corps de la page */
+#corps
+{
+	border-top: 1px solid #999;
+	position: relative;
+	min-height:90%; 
+	min-width:90%;
+	width:auto;
+	height:auto;
+
+}
+
+/* positionnement du bouton deconnexion */
+#deconnexion
+{
+	 float:right;
+	 
+}
+
+/* applique un style � toutes les balises a de la page */
+a
+{
+text-decoration: none;
+color: rgba(69,54,37,0.6);	
+}
+
+/* applique un style � la bordure ou cadre authentification de la page */
+#authentification
+{
+border-radius: 19px 25px 25px 21px;
+-moz-border-radius: 19px 25px 25px 21px;
+-webkit-border-radius: 19px 25px 25px 21px;
+border: 2px solid #e6e6e6;	
+-webkit-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+-moz-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+background-color: #c8cdcf;
+width: 220px;
+height: 260px;
+position:relative;
+margin: 0 auto 25px;
+margin-top:50px;
+padding: 100px;
+}
+
+/* applique un style � la bordure ou cadre formulaire de la page */
+#formulaire
+{
+background-image: url("images/en.png");
+border-radius: 19px 25px 25px 21px;
+-moz-border-radius: 19px 25px 25px 21px;
+-webkit-border-radius: 19px 25px 25px 21px;
+border: 2px solid #e6e6e6;	
+-webkit-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+-moz-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+background-color: #c8cdcf;
+width: 250px;
+height: 350px;
+position:relative;
+margin: 0 auto 25px;
+margin-top:20px;
+padding: 80px;
+}
+
+#loi
+{
+text-align: center;	
+font: 150%/1.4 tahoma, arial, helvetica, lucida sans, sans-serif;
+}
+
+/* applique un style � [input]"id" password et login de la page */
+#password, #login, #nom, #prenom, #ville, #date, #password2
+{
+direction: ltr;
+height: 30px;
+font-size: 16px;
+position:relative;
+width: 120%;
+}
+
+/* applique un style � toutes les balise label de la page */
+label
+{
+font-size: 15px;
+	
+}
+
+/* applique un style au bouton connexion de la page */
+#connex
+{
+ display:block;
+ float:right;   
+ width:230px;
+ font-size:16px;
+ background-color:#95c3d4;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:5px;
+ border:2px solid;
+ cursor:pointer;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ border-radius: 19px 25px 25px 21px;	
+ margin-right: -24px; 
+}
+
+/* Champs requis dans le formulaire */
+.requis {
+    color: #c00;
+}
+
+#logo
+{
+padding-left: 100px;
+} 
+
+/* logo du site */
+#logo_vote
+{
+width:30px;
+height: 30px; 	
+}
+
+.liste_candidat
+{
+width:100px;
+height: 20%;
+margin:auto; 	
+cursor: pointer;
+}
+
+/* style du menu*/
+#menu
+{
+
+ 	margin:2%;
+
+}
+
+.menu_vote a
+{
+	color:black;
+}
+.menu_vote
+{
+	-webkit-box-shadow: 2px 2px 2px 2px #3091FF;
+	box-shadow: 2px 2px 2px 2px #3091FF;
+	width: 250px;
+	padding: 10px;
+ 
+}
+/* FIN MENU */
+
+/* style session de la personne*/
+.session
+{
+text-shadow: 3px 3px 3px #AD9F9F;
+color:red;
+font-family:"palatino linotype", palatino, serif;
+font-size:120%;
+}
+/* style h1 de la page d'accueil*/
+h1
+{
+	text-align: center;
+}
+/* ---------------------- */
+
+/* style menu_accueil */
+.menu_accueil
+{
+width:50px;
+height: 50px; 		  
+ 
+}
+ 
+
+/*-------------------------*/
+/* style : photos des candidats */
+.cadre
+{
+ 
+border: 1px solid #999; 
+}
+.cadres
+{
+ width:90%;
+border: 1px solid #999; 
+}
+/* Fin du style*/
+
+
+/* style */
+#bann
+{
+	 width:60%;
+	 height:50%;
+}
+
+figure  
+{
+ text-align: center;
+}
+
+/* fin */
+
+
+
+/* applique un style lien de redirection de la page */
+#redir
+{
+	margin:0 auto; /*centrage marges automatiques*/
+	padding:1px 0;
+	text-align:center; /*centre les inline qu'il contient*/
+  
+}
+#redir li 
+{
+display:inline; /*de list-item � inline*/
+}
+#redir a
+{
+	display:inline;
+	margin-left:2px;
+	color:black;
+	padding: 5px 5px;
+	text-decoration:none;
+	background:#ddd;
+} /* fin */
+
+/* style pour le tableau*/
+
+ table.gradienttable {
+	font-family: verdana,arial,sans-serif;
+	font-size:125%;
+	color:#333333;
+	border-width: 1px;
+	border-color: #999999;
+	border-collapse: collapse;
+	min-width: 100%;
+ 
+}
+table.gradienttable th {
+	 
+	padding: 0px;
+	background: #d5e3e4;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2Q1ZTNlNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2NjZGVlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNiM2M4Y2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #d5e3e4 0%, #ccdee0 40%, #b3c8cc 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#d5e3e4), color-stop(40%,#ccdee0), color-stop(100%,#b3c8cc));
+	background: -webkit-linear-gradient(top,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	background: -o-linear-gradient(top,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	background: -ms-linear-gradient(top,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	background: linear-gradient(to bottom,  #d5e3e4 0%,#ccdee0 40%,#b3c8cc 100%);
+	border: 1px solid #999999;
+}
+table.gradienttable td {
+	 
+	padding: 0px;
+	background: #ebecda;
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2ViZWNkYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQwJSIgc3RvcC1jb2xvcj0iI2UwZTBjNiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjZWNlYjciIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #ebecda 0%, #e0e0c6 40%, #ceceb7 100%);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#ebecda), color-stop(40%,#e0e0c6), color-stop(100%,#ceceb7));
+	background: -webkit-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	background: -o-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	background: -ms-linear-gradient(top,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	background: linear-gradient(to bottom,  #ebecda 0%,#e0e0c6 40%,#ceceb7 100%);
+	border: 1px solid #999999;
+}
+table.gradienttable th p{
+	margin:0px;
+	padding:8px;
+	border-top: 1px solid #eefafc;
+	border-bottom:0px;
+	border-left: 1px solid #eefafc;
+	border-right:0px;
+}
+table.gradienttable td p{
+	margin:0px;
+	padding:8px;
+	border-top: 1px solid #fcfdec;
+	border-bottom:0px;
+	border-left: 1px solid #fcfdec;;
+	border-right:0px;
+}
+
+/* fin du style tableau */
+
+/* style : message */
+#deja_voter
+{
+border-radius: 19px 25px 25px 21px;
+-moz-border-radius: 19px 25px 25px 21px;
+-webkit-border-radius: 19px 25px 25px 21px;
+border: 2px solid #e6e6e6;	
+-webkit-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+-moz-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+background-color: #f3a9a9;
+width: 30%;
+height: 2%;
+position:relative;
+margin: 0 auto 25px;
+margin-top:20px;
+padding: 80px;
+}
+
+#desoler
+{
+margin-left: 45%;
+margin-right: 20%;
+}
+/* fin */
+
+/* style : contact */
+#contact
+{
+background-image: url("images/desole.jpg");
+border-radius: 19px 25px 25px 21px;
+-moz-border-radius: 19px 25px 25px 21px;
+-webkit-border-radius: 19px 25px 25px 21px;
+border: 2px solid #e6e6e6;	
+-webkit-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+-moz-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+background-color: #bcd3fe;
+width: 50%;
+height: 5%;
+position:relative;
+margin: 0 auto 20px;
+margin-top:20px;
+padding: 8%;
+text-align: center;
+}
+
+/* style : confirmation du vote */
+#confirmer_voter
+{
+background-image: url("images/desole.jpg");
+border-radius: 19px 25px 25px 21px;
+-moz-border-radius: 19px 25px 25px 21px;
+-webkit-border-radius: 19px 25px 25px 21px;
+border: 2px solid #e6e6e6;	
+-webkit-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+-moz-box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+box-shadow: 10px 10px 34px -75px rgba(95,99,90,1);
+background-color: #bcd3fe;
+
+width: 50%;
+height: 5%;
+position:relative;
+margin: 0 auto 20px;
+margin-top:20px;
+padding: 8%;
+text-align: center;
+}
+/* fin */
+
+/* applique un style au footer de la page */
+#foot 
+{
+  text-align: center;
+  margin-top: 1.8em;
+  border-top: 1px solid #999;
+  padding-top: 1em;
+  font-family: Georgia;
+  color: rgba(69,54,37,0.6);
+  font-size: 0.85em;
+  font-style: italic;
+  letter-spacing: 0.25em;
+  border-bottom: 1px solid rgba(69,54,37,0.2);
+  padding-bottom: 0.5em;
+  text-decoration: none;
+   
+}
+
+ 
+ 
+    
